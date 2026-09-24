@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="28" fill="#08080a"/>
+  <rect x="2" y="2" width="96" height="96" rx="26" fill="none" stroke="#f5c563" stroke-width="3" stroke-opacity="0.4"/>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="'Space Grotesk', 'DM Mono', sans-serif" font-weight="900" font-size="34" fill="#f5c563" letter-spacing="2">SHA</text>
+</svg>

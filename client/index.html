@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" class="dark" style="background-color: #08080a; color: #f8fafc; color-scheme: dark;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#08080a" />
+    <meta name="description" content="Syed Hanzala Abrar — Creative Full-Stack Developer & AI Engineer crafting high-performance digital experiences, machine learning models, and system architectures." />
+    <meta property="og:title" content="Syed Hanzala Abrar — Creative Developer & AI Engineer" />
+    <meta property="og:description" content="Portfolio of Syed Hanzala Abrar with interactive system telemetry, case studies, and creative web architecture." />
+    <link rel="icon" href="/sha-logo.svg" type="image/svg+xml" />
+    <title>Syed Hanzala Abrar — Creative Developer & AI Engineer</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        background-color: #08080a;
+      }
+      html, body {
+        background-color: #08080a !important;
+        color: #f8fafc !important;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+      }
+      html.light, html.light body {
+        background-color: #f7f6f0 !important;
+        color: #0e0e0e !important;
+        color-scheme: light;
+      }
+      #root {
+        background-color: inherit;
+        min-height: 100vh;
+        width: 100%;
+      }
+      #initial-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #08080a;
+        color: #f8fafc;
+      }
+    </style>
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('portfolio_theme');
+          var theme = stored === 'light' ? 'light' : 'dark';
+          document.documentElement.className = theme;
+          var isLight = theme === 'light';
+          document.documentElement.style.backgroundColor = isLight ? '#f7f6f0' : '#08080a';
+          document.documentElement.style.color = isLight ? '#0e0e0e' : '#f8fafc';
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="antialiased" style="background-color: #08080a; color: #f8fafc; margin: 0; min-height: 100vh;">
+    <div id="root" style="background-color: #08080a; min-height: 100vh;">
+      <div id="initial-splash">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; width: 100px; height: 100px; border-radius: 9999px; border: 1.5px solid rgba(245, 197, 99, 0.4); box-shadow: 0 0 35px rgba(245, 197, 99, 0.2);">
+          <span style="font-family: monospace; font-size: 24px; font-weight: 900; letter-spacing: 0.15em; background: linear-gradient(135deg, #f5c563, #ff4d5a); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SHA</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
