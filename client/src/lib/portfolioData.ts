@@ -50,10 +50,11 @@ export interface Testimonial {
 }
 
 export const assetUrls = {
-  logo: "/manus-storage/signal-noir-sh-logo_c99df2fa.png",
-  valued: "/manus-storage/valued-project_4b1a24b0.png",
-  iris: "/manus-storage/iris-project_d17a6b4f.png",
-  library: "/manus-storage/library-project_00f8cb41.png",
+  logo: "/sha-logo.svg",
+  valued: "/project-valued.svg",
+  iris: "/project-iris.svg",
+  library: "/project-library.svg",
+  fincore: "/project-fincore.svg",
 };
 
 export const heroGallery = [
@@ -213,7 +214,7 @@ export const projectsData: Project[] = [
       { label: "Stress Test TPS", value: "4,500 TPS" },
     ],
     techStack: ["PostgreSQL", "SQL", "PL/pgSQL", "Go", "Docker", "Prometheus", "Grafana"],
-    image: assetUrls.valued,
+    image: assetUrls.fincore,
     featured: false,
     githubUrl: "https://github.com/syedhanzala-Abrar",
     liveUrl: "https://fincore.syedhanzala.dev",

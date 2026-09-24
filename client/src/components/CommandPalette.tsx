@@ -215,7 +215,7 @@ export function CommandPalette({
               )}
 
               <a
-                href="https://github.com/syedhanzala"
+                href="https://github.com/syedhanzala-Abrar"
                 target="_blank"
                 rel="noreferrer"
                 onMouseEnter={() => sound.playHover()}
@@ -228,7 +228,7 @@ export function CommandPalette({
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/syed-hanzala-abrar-68b29b395/"
                 target="_blank"
                 rel="noreferrer"
                 onMouseEnter={() => sound.playHover()}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-fin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f06" />
+      <stop offset="100%" stop-color="#080603" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg-fin)" />
+  <rect x="2" y="2" width="796" height="496" rx="22" fill="none" stroke="#ffb300" stroke-width="1.5" stroke-opacity="0.25" />
+
+  <!-- Double Entry Balance Scales Graph -->
+  <g stroke="#ffb300" stroke-width="2" fill="none">
+    <path d="M 200 320 L 320 220 L 440 280 L 600 160" />
+    <path d="M 200 320 L 320 220 L 440 280 L 600 160" stroke="#ffb300" stroke-opacity="0.2" stroke-width="12" />
+  </g>
+
+  <circle cx="200" cy="320" r="8" fill="#140f06" stroke="#ffb300" stroke-width="3" />
+  <circle cx="320" cy="220" r="8" fill="#140f06" stroke="#ffb300" stroke-width="3" />
+  <circle cx="440" cy="280" r="8" fill="#140f06" stroke="#ffb300" stroke-width="3" />
+  <circle cx="600" cy="160" r="12" fill="#140f06" stroke="#00f59b" stroke-width="3.5" />
+
+  <text x="60" y="70" font-family="'Space Grotesk', monospace" font-size="14" fill="#ffb300" letter-spacing="2" font-weight="700">BANKING SYSTEM &amp; LEDGER</text>
+  <text x="60" y="440" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#ffffff" font-weight="800">ACID Relational Ledger Engine</text>
+  <text x="60" y="468" font-family="monospace" font-size="14" fill="#8f8e89">0.00% Discrepancy · 4,500 TPS · Row-Level Concurrency Isolation</text>
+</svg>
